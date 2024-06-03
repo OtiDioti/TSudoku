@@ -1,11 +1,11 @@
 # TSudoku
 ## Overview
 
-This repository contains an implementation of a numerical approach to solve Sudoku boards. To tackle the problem, the game of Sudoku is mapped to an Ising model problem, where each Sudoku tile can be mapped to a spin particle with 9 possible spin values. The Sudoku board is then "placed in thermal equilibrium" with some external enviroment, which allows the tile states to stochastically flactuate following the Boltzmann's distribution. Over time this enables the board to get closer and closer to (and possibly coincide with) some complete solution of the Sudoku board.
+This repository contains an implementation of a numerical approach to solve Sudoku boards. To tackle the problem, the game of Sudoku is mapped to an Ising model problem, where each Sudoku tile can be mapped to a spin particle with 9 possible spin values. By simulating the Sudoku board in thermal equilibrium with an external environment, the tile states are allowed to stochastically fluctuate according to the Boltzmann distribution. Over time, this process helps the board approach a complete and valid solution.
 
 ## Background
 
-Sudoku is a fascinating game that is played on a nine-by-nine grid. The grid is then also subdivided into nine three-by-three grids. The purpose of the game is to find a state for the total board such that no number is repeated along any of the rows or columns, as well as not having any repeating number within any of the sub boards.
+Sudoku is a popular puzzle game played on a 9x9 grid, which is further subdivided into nine 3x3 subgrids. The objective of the game is to fill the grid with digits from 1 to 9 so that each column, each row, and each of the nine 3x3 subgrids contain all the digits from 1 to 9 without repetition.
 
 To use the solver, open the terminal and follow these steps:
 
